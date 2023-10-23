@@ -1,0 +1,36 @@
+
+
+
+import drawly
+
+
+have the user press enter to create their superhero
+
+prompt user for following things using input
+    super_hero_name
+    body_size
+    location (need both x and y in separate prompts)
+    arm_length
+    leg_length
+        must be longer than the arm length, use an if else statement to ask again if false)
+    sword_length
+        arm plus sword length must be longer than the leg length (use if else to ask again if fase)
+    voice_power
+        must be longer than the arm plus sword length, use an if else statement to ask again if false)
+
+print a welcome message for superhero
+
+prompt the user for more variables as follows
+    villain name
+    body size
+    location
+
+print a welcome message for the villain that's mean
+
+input Hit Enter to help <Superhero name> fight <Villain name>
+
+start drawly with superhero vs villain name
+draw and display two points for the location of the superhero and villain
+use different colored rings to display the distance at which each superhero attack works
+using an if, elif, and else statement, print a message telling the superhero what to do depending on the distance from the hero
+these should include some form of a punch, kick, sward attack, and voice stun
